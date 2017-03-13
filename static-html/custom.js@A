@@ -1,0 +1,12 @@
+$(function() {
+    $('#slideshow-area').camera({
+        height: $("#slideshow-area").attr("data-height"),
+	width: $("#slideshow-area").attr("data-width"),
+        pagination: false,
+        thumbnails: false,
+        pauseOnClick: false,
+        hover: false,
+        navigationHover: false,
+	time: 15000
+    });
+});
